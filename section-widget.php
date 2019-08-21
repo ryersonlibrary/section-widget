@@ -41,7 +41,7 @@ class OLT_Section_Widget extends WP_Widget {
      * @access public
      * @return void
      */
-    function OLT_Section_Widget() {
+    function __construct() {
         $widget_ops = array('classname' => 'section-widget', 'description' => __('Display section-specific content.','section-widget'));
         $control_ops = array('width' => 400);
         // $this->WP_Widget('section', __('Section','section-widget'), $widget_ops, $control_ops);
