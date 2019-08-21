@@ -1,12 +1,12 @@
 <?php
-
-/*
-Plugin Name: Section Widget
-Plugin URI: http://blogs.ubc.ca/support/plugins/section-widget/
-Description: Display arbitrary text or HTML on certain sections of your site.
-Author: Godfrey Chan (UBC CTLT), Enej, 
-Version: 3.2.5
-Author URI: http://www.chancancode.com/
+/**
+ * Plugin Name: Section Widget
+ * Plugin URI: https://github.com/ryersonlibrary/section-widget
+ * Description: Display arbitrary text or HTML on certain sections of your site. Legacy plugin support for the Ryerson University Library & Archives website.
+ * Author: Ryerson University Library & Archives, Godfrey Chan (UBC CTLT), Enej,
+ * Author URI: https://github.com/ryersonlibrary/
+ * GitHub Plugin URI: https://github.com/ryersonlibrary/section-widget
+ * Version: 3.2.6
 */
 
 include_once('olt-checklist/loader.php');
