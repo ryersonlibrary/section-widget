@@ -6,7 +6,7 @@
  * Author: Ryerson University Library & Archives, Godfrey Chan (UBC CTLT), Enej,
  * Author URI: https://github.com/ryersonlibrary/
  * GitHub Plugin URI: https://github.com/ryersonlibrary/section-widget
- * Version: 3.2.6
+ * Version: 3.2.7
 */
 
 include_once('olt-checklist/loader.php');

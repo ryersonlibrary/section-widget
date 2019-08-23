@@ -24,7 +24,7 @@ class OLT_Tabbed_Section_Widget extends WP_Widget {
      * @access public
      * @return void
      */
-    function OLT_Tabbed_Section_Widget() {
+    function __construct() {
         $widget_ops = array('classname' => 'section-widget-tabbed', 'description' => __('Display section-specific content in tabs.'));
         $control_ops = array('width' => 400);
         // $this->WP_Widget('section-tabbed', __('Section (Tabbed)'), $widget_ops, $control_ops);
